@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="learning_communication" name="sum_server" type="server" output="screen" />
+	<node pkg="learning_communication" name="sum_client" type="client" output="screen" />
+</launch>

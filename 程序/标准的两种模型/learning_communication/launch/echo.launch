@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="learning_communication" name="echo_lister" type="listener" output="screen" />
+	<node pkg="learning_communication" name="echo_talker" type="talker" output="screen" />
+</launch>
